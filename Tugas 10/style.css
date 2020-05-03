@@ -1,0 +1,17 @@
+body{	
+	background-color: lavender;
+}
+
+.lihat-tabel {
+	text-align: center;
+	border-collapse: collapse;
+    height: 60px;
+    border: 1px solid #808000;
+    margin-top: 15px;
+	width: 90%;
+}
+
+.lihat-tabel th{
+	background: #808000;
+	color: white;
+}
