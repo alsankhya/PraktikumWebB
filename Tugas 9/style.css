@@ -1,0 +1,31 @@
+body{	
+	background-color: lavender;
+}
+
+.input{
+	width: 500px;
+}
+
+.lihat-tabel {
+	text-align: center;
+	border-collapse: collapse;
+    height: 60px;
+    border: 1px solid #808000;
+    margin-top: 15px;
+	width: 90%;
+}
+
+.lihat-tabel th{
+	background: #808000;
+	color: white;
+}
+
+button{
+	border: none;
+	background-color: #808000;
+	color: white;
+	width: 100px;
+	height: 20px;
+	margin-top: 14px;
+	border-radius: 10px;
+}
