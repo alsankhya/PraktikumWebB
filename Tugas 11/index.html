@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sorting</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <center>
+   <input type="text" id="filter" onkeyup="myFunction()" placeholder="Cari buku">
+   <button onclick="sortListDir()">Cari</button>
+   <ul id="list">
+      <li><a href="#">Buku Teknologi</a></li>
+      <li><a href="#">Buku Hukum</a></li>
+      <li><a href="#">Buku Sejarah</a></li>
+      <li><a href="#">Buku Fiksi</a></li>
+      <li><a href="#">Sherlock Holmes A Study In Scarlet</a></li>
+      <li><a href="#">Ke Mana Larinya Harta Bersama Setelah Perceraian?</a></li>
+      <li><a href="#">Komputer Grafis, Belajar Elemen Dasar Grafis Menjadi Pro</a></li>
+      <li><a href="#">Sejarah Lengkap Dunia Abad Pertengahan 500-1400 M</a></li>
+      <li><a href="#">Sherlock Holmes The Sign of The Four</a></li>
+      <li><a href="#">Sherlock Holmes The Hound Of The Baskervilles</a></li>
+      <li><a href="#">Sherlock Holmes The Valley of Fear</a></li>
+      <li><a href="#">Seri Hukum Hak Kekayaan Intelektual Hukum Paten Edisi Revisi</a></li>
+      <li><a href="#">Microsoft Excel 2019 Untuk Pemula</a></li>
+      <li><a href="#">Membangun Aplikasi Android Web Dan Web Service</a></li>
+   </ul>
+   </center>
+
+   <script type="text/javascript">
+      function myFunction() {
+         var input, filter, ul, li, a, i, txtValue;
+         input = document.getElementById('filter');
+         filter = input.value.toUpperCase();
+         ul = document.getElementById("list");
+         li = ul.getElementsByTagName('li');
+         for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+               li[i].style.display = "";
+            } else {
+               li[i].style.display = "none";
+            }
+         }
+      }
+
+      function sortListDir() {
+         var list, i, switching, b, shouldSwitch, dir, switchcount = 0;
+         list = document.getElementById("list");
+         switching = true;
+         dir = "asc";
+         while (switching) {
+            switching = false;
+            b = list.getElementsByTagName("LI");
+            for (i = 0; i < (b.length - 1); i++) {
+               shouldSwitch = false;
+               if (dir == "asc") {
+                  if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+                     shouldSwitch = true;
+                     break;
+                  }
+               }else if (dir == "desc") {
+                  if (b[i].innerHTML.toLowerCase() < b[i + 1].innerHTML.toLowerCase()) {
+                     shouldSwitch= true;
+                     break;
+                  }
+               }
+            }
+            if (shouldSwitch) {
+               b[i].parentNode.insertBefore(b[i + 1], b[i]);
+               switching = true;
+               switchcount ++;
+            }else {
+               if (switchcount == 0 && dir == "asc") {
+                  dir = "desc";
+                  switching = true;
+               }
+            }
+         }
+      }
+   </script>
+</body>
+</html>
