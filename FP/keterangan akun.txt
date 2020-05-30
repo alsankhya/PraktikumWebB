@@ -1,0 +1,11 @@
+Super Admin
+user: superadmin
+pass: superadmin
+
+Admin
+user: admin
+pass: admin
+
+User
+user: gekadis
+pass: gekadis123

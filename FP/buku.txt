@@ -1,0 +1,74 @@
+buku 1
+Sherlock Holmes A Study In Scarlet
+sir arthur conan doyle
+Shira Media
+indonesia
+9786021785775
+
+buku 2
+Sherlock Holmes The Sign of The Four
+9786020000000
+
+buku 3
+Sherlock Holmes The Hound Of The Baskervilles
+9786021142356
+
+buku 4
+Sherlock Holmes The Valley of Fear
+9786021142363
+
+buku 5
+Ke Mana Larinya Harta Bersama Setelah Perceraian?
+Verlyta Swislyn
+9786230015120
+Indonesia
+Elex Media Komputindo
+
+buku 6
+Seri Hukum Hak Kekayaan Intelektual Hukum Paten Edisi Revisi
+DR. HJ. ENDANG PURWANINGSIH, S.H., M.HUM., M.KN.
+9789795384878
+Indonesia
+Cv. Mandar Maju
+
+buku 7
+Komputer Grafis, Belajar Elemen Dasar Grafis Menjadi Pro
+Tonny Hidayat
+9786230102127
+Indonesia
+Andi Offset
+
+buku 8
+Microsoft Excel 2019 Untuk Pemula
+Madcoms
+9786230102912
+Indonesia
+Andi Offset
+
+buku 9
+Membangun Aplikasi Android Web Dan Web Service 
+Eko Budi Setiawan, S.Kom, M.T & Angga Try Ramdany, S.Kom
+9786237131168
+Indonesia
+Informatika
+
+buku 10
+Sejarah Lengkap Perang Dunia 1: 1914-1918
+Alfi Arifian
+9786232441323
+Indonesia
+Sociality
+
+buku 11
+Sejarah Lengkap Dunia Abad Pertengahan 500-1400 M
+Alfi Arifian
+9786232441330
+Indonesia
+Sociality
+
+buku 12
+ORIDA: Oeang Republik Indonesia Daerah 1947 - 1949
+Michell Suharli, Suwito Harsono
+9786020639642
+Indonesia
+Gramedia Pustaka Utama
